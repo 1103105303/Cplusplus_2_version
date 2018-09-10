@@ -7,7 +7,7 @@ int main() {
 	char input;
 	asmd ALU;
 	cin >> ALU;
-	cout << "請輸入加減乘除" << endl;
+	cout << "input + - * /" << endl;
 	cin >> input;
 	ALU.choicealu(input);
 	cout << ALU;
